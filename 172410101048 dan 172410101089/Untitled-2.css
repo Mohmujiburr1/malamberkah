@@ -1,0 +1,251 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+tombol{
+    position: fixed;
+    bottom: 100px;
+    right: 0;
+    width: 300PX;
+    border: 3px solid #5D6D7E
+}
+
+
+
+.container{
+    margin-top: 10px;
+    width: 100%;
+}
+
+header{
+    height: 120px;
+    overflow: hidden;
+    background: gray;
+    width: 100%;
+}
+
+header.kiri{
+    width: 250px;
+    float: left;
+    margin: 25px 0 0 10px;
+}
+
+header .kiri img{
+    width: 100px; 
+    height: 100px; 
+    margin :10px 10px;
+}
+
+footer{
+    margin-top: 325px;
+    margin-left: 10px;
+}
+
+footer .footer1{
+    background-color: gray;
+    height: 70px;
+    width: 200px;
+    
+}
+
+footer .footer1 p{
+    font-size: 13pt;
+    text-align: center;
+    padding: 10px;
+}
+
+/* batas */
+	
+#tabs {
+	float:left;
+	width:55%;
+	background:rgb(21, 112, 231);
+	font-size:93%;
+	line-height:normal;
+    margin-top: 0;
+    margin-left: 303px;
+    margin-right: 303px;
+	}
+	
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+	
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+	
+#tabs a {
+	float:left;
+	background:url("tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+	
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#FFF;
+    }
+    
+    /* batas biodata amal */
+    @font-face {
+        font-family: "Losing Grip - TTF";
+        src: url('Losing Grip - TTF.ttf');
+        }
+        .exfont {
+        font-size: 170%;
+        font-family: "Losing Grip - TTF";
+        color:#302f2f;
+        }
+        @font-face {
+        font-family: "OldSansBlack";
+        src: url('OldSansBlack.ttf');
+        }
+        .exfontsub {
+        font-size: 200%;
+        font-family: "OldSansBlack";
+        text-align: center;
+        color:#302f2f;
+        }
+        @font-face {
+        font-family: "Font new";
+        src: url('new.TTF');
+        }
+        .exfontsubab {
+        font-size:100%;
+        font-family: "Font new";
+        color:#5D6D7E;
+        }
+        .exfontme{
+        font-size:140%;
+        font-family: "Font new";
+        text-align:center;
+        color:#FDFEFE;
+        }
+        table {
+        font-size:110%;
+        font-family: "Font new";
+        }
+        .kontainer{
+            position: relative;
+        }
+        .konten{
+            width: 50%;
+            height: auto;
+            margin: 0 auto;
+            position: relative;
+            z-index: 5;
+            background:#FDFEFE;
+            padding: 30px;
+            text-align: left;
+        } 
+
+        ul{
+            display: table;
+            margin: 0 auto;
+        }
+        body {
+            background: url(background1.jpg) no-repeat;
+            background-size: 100% 100%;
+            background-attachment:fixed;
+        }
+
+/* dibawah ini css login */
+.login-page {
+    width: 360px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #43A047;
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+  }
+  .container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .container:before, .container:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  .container .info {
+    margin: 50px auto;
+    text-align: center;
+  }
+  .container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+  }
+  .container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+  }
+  .container .info span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .container .info span .fa {
+    color: #EF3B3A;
+  }
+  
